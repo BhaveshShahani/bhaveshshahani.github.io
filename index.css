@@ -31,7 +31,7 @@ nav{
     cursor: pointer;
 }
 span{
-    color: blue;
+    color: teal;
 }
 nav ul li{
     list-style-type: none;
@@ -342,7 +342,17 @@ footer p{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    
+    .projectBody{
+        width: 105%;
+    }
+    .about{width: 105%;}
+    .pro{width: 105%;}
+    .details{ width: 105%;
+    text-decoration: none;
+    gap: 10px;
+    padding: 20px;
+    font-size: 11px;
+}
 }
 
 
