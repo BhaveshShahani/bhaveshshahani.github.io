@@ -343,11 +343,11 @@ footer p{
         grid-template-columns: repeat(2,1fr);
     }
     .projectBody{
-        width: 105%;
+        width: 108%;
     }
-    .about{width: 105%;}
-    .pro{width: 105%;}
-    .details{ width: 105%;
+    .about{width: 108%;}
+    .pro{width: 108%;}
+    .details{ width: 108%;
     text-decoration: none;
     text-transform: none;
     gap: 10px;
