@@ -51,11 +51,32 @@ nav ul li a:hover{
     transition: .3s;
     border-bottom: 3px solid #191919;
 }
+.contentparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    /* border: 4px solid wheat; */
+    height: 100%;
+}
+.contentlogo{
+    width: 600px;
+    height: 60%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentlogo img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
 .content{
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
-    left: 8%;
-
+    margin-left: 40px;
 }
 #name{
     color: teal;
@@ -299,6 +320,9 @@ footer p{
         padding: 80px 4%;
         transition: .2s;
     }
+    .contentlogo{
+        display: none;
+    }
 }
 
 @media (max-width: 990px){
@@ -332,6 +356,9 @@ footer p{
     nav ul {
         display: flex;
     }
+    .contentlogo{
+        display: none;
+    }
     
 }
 @media (max-width: 480px){
@@ -355,6 +382,9 @@ footer p{
     gap: 10px;
     padding: 20px;
     font-size: 12px;
+}
+.contentlogo{
+    display: none;
 }
 }
 
