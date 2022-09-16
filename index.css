@@ -165,6 +165,7 @@ nav ul li a:hover{
     overflow: hidden;
     text-align: center;
     justify-content: center;
+    text-align: center;
     /* border: 1px solid saddlebrown; */
     /* background-color: #191919; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -174,7 +175,8 @@ nav ul li a:hover{
     margin: auto;
 }
 .card img{
-    width: 85px;
+    /* border: 1px solid saddlebrown; */
+    width: 95px;
     height: 90%;
 }
 
