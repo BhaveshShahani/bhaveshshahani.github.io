@@ -2,17 +2,20 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhavesh Shahani Portfolio</title>
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet"href="calendar.css"/> -->
 </head>
 
 <body>
-    <div class="hero">
+    
+    <div class="hero" id="hero">
         <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2>
+            <h2 class="logo"> <a href="#hero">Portfo<span>lio</span></a> </h2>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -95,6 +98,25 @@
             </div>
         </div>
     </div>
+
+    <div class="softskills">
+        <div class="softskillstitle">
+            <h2>Soft Skills</h2>
+        </div>
+        <div class="softskillscards">
+            <div class="softskillstext">
+                <h3>Time Management</h3>
+                <h3>Motivated</h3>
+                <h3>Problem Solving</h3>
+                <h3>Learner</h3>
+                <h3>Dressing Sense</h3>
+                <h3>Active Listner</h3>
+                <h3>Work Ethics</h3>
+                <h3>Leadership Skill</h3>
+                <h3>Critical Thinker</h3>
+            </div>
+        </div>
+    </div>
     <!-- Skills Section Ends -->
 
     <!-- Project Section Starts -->
@@ -145,6 +167,23 @@
 
     <!-- Project Section Ends -->
 
+    <!-- Git calender Start -->
+    <!-- Include the library. -->
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+
+
+<!-- Prepare a container for your calendar. -->
+<h2 class="gitcalendar">Github Calendar</h2>
+<div class="calendar">
+  <!-- Loading stuff -->
+  Loading the data just for you.
+</div>
+
+
+
+<!-- Git Calender End-->
+
     <!-- Contact Me Section Start -->
 
     <footer id="contact">
@@ -169,5 +208,23 @@
         <p>Gudd.shahani@gmail.com</p>
     </div>
 </body>
+
+<script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<script>
+    GitHubCalendar(".calendar", "bhaveshshahani");
+  
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "bhaveshshahani", { responsive: true });
+  
+    // Use a proxy
+    GitHubCalendar(".calendar", "bhaveshshahani", {
+       proxy (bhaveshshahani) {
+         return fetch(`https://your-proxy.com/github?user=${bhaveshshahani}`)
+       }
+    }).then(r => r.text())
+  </script>
 
 </html>
