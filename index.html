@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    
+
     <div class="hero" id="hero">
         <nav>
             <h2 class="logo"> <a href="#hero">Portfo<span>lio</span></a> </h2>
@@ -31,7 +31,8 @@
                 <h5 id="des">Back End Developer.</h5>
             </div>
             <div class="contentlogo">
-                <img src="https://img.freepik.com/premium-photo/java-programming-code-abstract-technology-background_272306-149.jpg" alt="">
+                <img src="https://img.freepik.com/premium-photo/java-programming-code-abstract-technology-background_272306-149.jpg"
+                    alt="">
             </div>
         </div>
         <!-- <div class="content">
@@ -93,7 +94,8 @@
             </div>
             <div class="card">
                 <div class="logoPhoto" id="dsaimg">
-                    <img src="https://www.learnsimpli.com/wp-content/uploads/2021/05/Data-structure-and-algorithms.png" alt="Git Hub">
+                    <img src="https://www.learnsimpli.com/wp-content/uploads/2021/05/Data-structure-and-algorithms.png"
+                        alt="Git Hub">
                 </div>
             </div>
         </div>
@@ -108,9 +110,9 @@
                 <h3>Time Management</h3>
                 <h3>Motivated</h3>
                 <h3>Problem Solving</h3>
-                <h3>Learner</h3>
-                <h3>Dressing Sense</h3>
-                <h3>Active Listner</h3>
+                <h3>Quick Learner</h3>
+                <h3>Team Player</h3>
+                <h3>Active Listener</h3>
                 <h3>Work Ethics</h3>
                 <h3>Leadership Skill</h3>
                 <h3>Critical Thinker</h3>
@@ -170,19 +172,19 @@
     <!-- Git calender Start -->
     <!-- Include the library. -->
 
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 
 
-<!-- Prepare a container for your calendar. -->
-<h2 class="gitcalendar">Github Calendar</h2>
-<div class="calendar">
-  <!-- Loading stuff -->
-  Loading the data just for you.
-</div>
+    <!-- Prepare a container for your calendar. -->
+    <h2 class="gitcalendar">Github Calendar</h2>
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+    </div>
 
 
 
-<!-- Git Calender End-->
+    <!-- Git Calender End-->
 
     <!-- Contact Me Section Start -->
 
@@ -190,6 +192,9 @@
         <h2>Contact Me</h2>
         <p>Bhavesh Shahani</p>
         <div class="social">
+            <a href="tel:+91 9575304562" target="_blank"><img
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png"
+                    alt="phonelogo"></a>
             <a href="https://www.linkedin.com/in/bhavesh-shahani" target="_blank"><img
                     src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
             <a href="https://github.com/BhaveshShahani" target="_blank"><img
@@ -200,31 +205,31 @@
             <a href="https://twitter.com/bhaveshshahani7" target="_blank"><img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"
                     alt="twitter"></a>
+
         </div>
     </footer>
     <div class="details">
-        <p>Bhavesh Shahani</p>
+        <!-- <p>Bhavesh Shahani</p>
         <p>+91 9575304562</p>
-        <p>Gudd.shahani@gmail.com</p>
+        <p>Gudd.shahani@gmail.com</p> -->
     </div>
 </body>
 
-<script
-src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
 
 <script>
     GitHubCalendar(".calendar", "bhaveshshahani");
-  
+
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "bhaveshshahani", { responsive: true });
-  
+
     // Use a proxy
     GitHubCalendar(".calendar", "bhaveshshahani", {
-       proxy (bhaveshshahani) {
-         return fetch(`https://your-proxy.com/github?user=${bhaveshshahani}`)
-       }
+        proxy(bhaveshshahani) {
+            return fetch(`https://your-proxy.com/github?user=${bhaveshshahani}`)
+        }
     }).then(r => r.text())
-  </script>
+</script>
 
 </html>

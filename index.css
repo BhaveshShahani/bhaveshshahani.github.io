@@ -530,7 +530,6 @@ footer p{
     width: 50px;
     height: 45px;
     margin: 22px 10px;
-
 }
 .social img:hover{
     transform: scale(1.1);
@@ -548,7 +547,7 @@ footer p{
 
 }
 
-@media (max-width: 1270px){
+@media (max-width: 1104px){
     
     .hero{
         padding: 18px 4%;
@@ -564,7 +563,7 @@ footer p{
     }
 }
 
-@media (max-width: 990px){
+@media (max-width: 690px){
     .content{
         height: 85vh;
     }
@@ -606,7 +605,7 @@ footer p{
     }
     
 }
-@media (max-width: 480px){
+@media (max-width: 500px){
     
     .box{
         display: grid;
