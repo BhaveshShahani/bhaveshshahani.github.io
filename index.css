@@ -299,11 +299,11 @@ nav ul li a:hover{
     margin-left: 17%;
 }
 
-/* calendar */
+/*calendar
 .gitcalendar{
     color: black;
     font-size: 55px;
-    /* width: 1130px; */
+    /* width: 1130px; *
     margin: 30px auto;
     text-align: center;
 }
@@ -362,7 +362,7 @@ nav ul li a:hover{
       text-align: right;
       padding: 0 14px 10px 0;
       display: inline-block;
-      /* float: right; */
+      /* float: right; *
   }
   
   .contrib-legend .legend {
@@ -505,7 +505,12 @@ nav ul li a:hover{
       fill: #ccc;
       font-size: 11px;
   }
+  */
 
+  /* Statics */
+
+
+  
 /* Footer */
 footer{
     /* position: relative; */
