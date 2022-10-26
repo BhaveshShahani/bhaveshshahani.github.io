@@ -364,6 +364,12 @@ footer p{
     .contentlogo{
         display: none;
     }
+    .softskillstext{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .softskillstext h3:last-child{
+        display: none;
+    }
 }
 
 @media (max-width: 690px){
@@ -434,11 +440,11 @@ footer p{
         grid-template-columns: repeat(2,1fr);
     }
     .projectBody{
-        width: 108%;
+        width: 100%;
     }
-    .about{width: 108%;}
-    .pro{width: 108%;}
-    .details{ width: 108%;
+    .about{width: 100%;}
+    .pro{width: 100%;}
+    .details{ width: 100%;
     text-decoration: none;
     text-transform: none;
     gap: 10px;
