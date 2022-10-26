@@ -463,6 +463,9 @@ footer p{
 .softskillstext h3:last-child{
     display: none;
 }
+.about img{
+    width: 100%;
+}
 }
 
 
