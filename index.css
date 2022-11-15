@@ -447,15 +447,25 @@ footer p{
     nav{
         top: 0;
         margin-left: -16px;
-        
+        /* width: 90%; */
+        padding: 10px;
     }
     nav ul{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
     .projectBody{
-        width: 100%;
+        display: block;
+        /* width: 100%; */
+        /* border: solid 1px red; */
+        align-items: center;
     }
+    .projectTitle{
+        /* border: solid 1px red; */
+        /* width: 100px; */
+        margin-bottom: 10px;
+    }
+
     .about{width: 100%;}
     .pro{width: 100%;}
     .details{ width: 100%;
