@@ -358,13 +358,16 @@ footer p{
         transition: .2s;
     }
     nav{
-        /* margin-top: -20px; */
-        /* margin-left: -44px; */
+        margin-top: -20px;
+        margin-left: -44px;
         width: 110%;
         }
         .contentparent{
             margin-top: 100px;
         }
+    #hibernate{
+        display: none;
+    }    
 
     section{
         padding: 80px 4%;
@@ -470,6 +473,9 @@ footer p{
         /* border: solid 1px red; */
         width: 80%;
         margin-bottom: 10px;
+    }
+    #hibernate{
+        display: block;
     }
 
     .about{width: 100%;}
