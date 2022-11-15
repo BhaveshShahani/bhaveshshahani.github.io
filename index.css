@@ -406,6 +406,7 @@ footer p{
         display: flex;
         flex-direction: column;
     }
+    
     .aboutText{
         text-align: center;
         width: 70%;
@@ -444,11 +445,15 @@ footer p{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .content{
+        /* border: solid 1px red; */
+        margin-top: 60px;
+    }
     nav{
         /* top: 0; */
         /* margin-left: -16px; */
         /* padding: 20px; */
-        width: 100%;
+        width: 102%;
         /* border: solid 1px red; */
     }
     nav ul{
