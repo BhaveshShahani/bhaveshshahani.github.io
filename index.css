@@ -208,11 +208,16 @@ nav ul li a:hover{
 .card h5{
     margin: auto;
 }
-.card img{
+.box .card .logoPhoto{
     /* border: 1px solid saddlebrown; */
+    align-items: center;
     display: flex;
     width: 95px;
     /* height: 90%; */
+}
+.box .card .logoPhoto img{
+    width: 100%;
+    height: 100%;
 }
 
 .softskillstitle{
