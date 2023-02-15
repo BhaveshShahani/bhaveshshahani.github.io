@@ -355,6 +355,17 @@ footer p{
     align-items: center;
 
 }
+#codepages{
+    border: 1px solid red ;
+    /* width: 100%; */
+    /* height: 400px; */
+    margin-top: -120;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom:#191919 ;
+}
 
 @media (max-width: 1104px){
     
